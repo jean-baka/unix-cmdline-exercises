@@ -20,6 +20,8 @@ Exercises
 
 Given the given FASTA file `my_sequences.fa` from this folder, you must answer the following questions using the commandline only (although you are welcome to check you answers by any usable means), and provide the trainer with the commands you used:
 
+0.  First things first, how are you going to get the sequence file so that you can work with it in your interactions with the shell (Bash) on the HPC? That file is on the HPC server at BecA, in the home directory of the trainer: `/home/jbaka/`. The file there is called `seqs.fas`. Copy it into your own home directory under the name `my_sequences.fa`. 
+
 1.  count the number of sequences (hint: `wc`)
 
 2.  extract all identifiers and store them in a separate file (hint: `grep`)
